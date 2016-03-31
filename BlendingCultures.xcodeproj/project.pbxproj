@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3234707C1CAD480500974D2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3234707B1CAD480500974D2F /* AppDelegate.swift */; };
+		323470811CAD480500974D2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3234707F1CAD480500974D2F /* Main.storyboard */; };
+		323470831CAD480500974D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323470821CAD480500974D2F /* Assets.xcassets */; };
+		323470861CAD480500974D2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323470841CAD480500974D2F /* LaunchScreen.storyboard */; };
+		323470911CAD480500974D2F /* BlendingCulturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323470901CAD480500974D2F /* BlendingCulturesTests.swift */; };
+		3234709C1CAD480500974D2F /* BlendingCulturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3234709B1CAD480500974D2F /* BlendingCulturesUITests.swift */; };
+		323470AA1CAD487300974D2F /* HandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323470A91CAD487300974D2F /* HandVC.swift */; };
+		323470AD1CAD4A2F00974D2F /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323470AC1CAD4A2F00974D2F /* Hand.swift */; };
+		323470AF1CAD4B2500974D2F /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323470AE1CAD4B2500974D2F /* Deck.swift */; };
+		323470B11CAD4BAC00974D2F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323470B01CAD4BAC00974D2F /* Card.swift */; };
+		323470B51CAD582F00974D2F /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323470B31CAD582F00974D2F /* CardCell.swift */; };
+		323470B61CAD582F00974D2F /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323470B41CAD582F00974D2F /* CardCell.xib */; };
+		323470B91CAD5AB500974D2F /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323470B81CAD5AB500974D2F /* Rank.swift */; };
+		323470BB1CAD5B2600974D2F /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323470BA1CAD5B2600974D2F /* Suit.swift */; };
+		323470BD1CAD615D00974D2F /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323470BC1CAD615D00974D2F /* DataSource.swift */; };
+		323470BF1CAD64D800974D2F /* SourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323470BE1CAD64D800974D2F /* SourceType.swift */; };
+		323470C11CAD67E700974D2F /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323470C01CAD67E700974D2F /* DataType.swift */; };
+		323470C31CAD6CA400974D2F /* HandDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323470C21CAD6CA400974D2F /* HandDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3234708D1CAD480500974D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 323470701CAD480500974D2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 323470771CAD480500974D2F;
+			remoteInfo = BlendingCultures;
+		};
+		323470981CAD480500974D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 323470701CAD480500974D2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 323470771CAD480500974D2F;
+			remoteInfo = BlendingCultures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		323470781CAD480500974D2F /* BlendingCultures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlendingCultures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3234707B1CAD480500974D2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		323470801CAD480500974D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		323470821CAD480500974D2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		323470851CAD480500974D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		323470871CAD480500974D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3234708C1CAD480500974D2F /* BlendingCulturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlendingCulturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		323470901CAD480500974D2F /* BlendingCulturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendingCulturesTests.swift; sourceTree = "<group>"; };
+		323470921CAD480500974D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323470971CAD480500974D2F /* BlendingCulturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlendingCulturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3234709B1CAD480500974D2F /* BlendingCulturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendingCulturesUITests.swift; sourceTree = "<group>"; };
+		3234709D1CAD480500974D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323470A91CAD487300974D2F /* HandVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandVC.swift; sourceTree = "<group>"; };
+		323470AC1CAD4A2F00974D2F /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		323470AE1CAD4B2500974D2F /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		323470B01CAD4BAC00974D2F /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		323470B31CAD582F00974D2F /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		323470B41CAD582F00974D2F /* CardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		323470B81CAD5AB500974D2F /* Rank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
+		323470BA1CAD5B2600974D2F /* Suit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
+		323470BC1CAD615D00974D2F /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		323470BE1CAD64D800974D2F /* SourceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceType.swift; sourceTree = "<group>"; };
+		323470C01CAD67E700974D2F /* DataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataType.swift; sourceTree = "<group>"; };
+		323470C21CAD6CA400974D2F /* HandDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandDataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323470751CAD480500974D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323470891CAD480500974D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323470941CAD480500974D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3234706F1CAD480500974D2F = {
+			isa = PBXGroup;
+			children = (
+				3234707A1CAD480500974D2F /* BlendingCultures */,
+				3234708F1CAD480500974D2F /* BlendingCulturesTests */,
+				3234709A1CAD480500974D2F /* BlendingCulturesUITests */,
+				323470791CAD480500974D2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		323470791CAD480500974D2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				323470781CAD480500974D2F /* BlendingCultures.app */,
+				3234708C1CAD480500974D2F /* BlendingCulturesTests.xctest */,
+				323470971CAD480500974D2F /* BlendingCulturesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3234707A1CAD480500974D2F /* BlendingCultures */ = {
+			isa = PBXGroup;
+			children = (
+				3234707B1CAD480500974D2F /* AppDelegate.swift */,
+				323470B21CAD57F600974D2F /* Models */,
+				323470B71CAD583300974D2F /* Views */,
+				323470C51CAD8A1E00974D2F /* View Models */,
+				323470AB1CAD49FB00974D2F /* Controllers */,
+				3234707F1CAD480500974D2F /* Main.storyboard */,
+				323470821CAD480500974D2F /* Assets.xcassets */,
+				323470841CAD480500974D2F /* LaunchScreen.storyboard */,
+				323470871CAD480500974D2F /* Info.plist */,
+			);
+			path = BlendingCultures;
+			sourceTree = "<group>";
+		};
+		3234708F1CAD480500974D2F /* BlendingCulturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				323470901CAD480500974D2F /* BlendingCulturesTests.swift */,
+				323470921CAD480500974D2F /* Info.plist */,
+			);
+			path = BlendingCulturesTests;
+			sourceTree = "<group>";
+		};
+		3234709A1CAD480500974D2F /* BlendingCulturesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3234709B1CAD480500974D2F /* BlendingCulturesUITests.swift */,
+				3234709D1CAD480500974D2F /* Info.plist */,
+			);
+			path = BlendingCulturesUITests;
+			sourceTree = "<group>";
+		};
+		323470AB1CAD49FB00974D2F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				323470C91CAD8B6900974D2F /* Hand */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		323470B21CAD57F600974D2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				323470AC1CAD4A2F00974D2F /* Hand.swift */,
+				323470AE1CAD4B2500974D2F /* Deck.swift */,
+				323470B01CAD4BAC00974D2F /* Card.swift */,
+				323470B81CAD5AB500974D2F /* Rank.swift */,
+				323470BA1CAD5B2600974D2F /* Suit.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		323470B71CAD583300974D2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				323470C81CAD8B5F00974D2F /* Card */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		323470C51CAD8A1E00974D2F /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				323470C61CAD8AF400974D2F /* Commons */,
+				323470C71CAD8B2400974D2F /* Hand */,
+			);
+			name = "View Models";
+			sourceTree = "<group>";
+		};
+		323470C61CAD8AF400974D2F /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				323470C01CAD67E700974D2F /* DataType.swift */,
+				323470BE1CAD64D800974D2F /* SourceType.swift */,
+				323470BC1CAD615D00974D2F /* DataSource.swift */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		323470C71CAD8B2400974D2F /* Hand */ = {
+			isa = PBXGroup;
+			children = (
+				323470C21CAD6CA400974D2F /* HandDataSource.swift */,
+			);
+			name = Hand;
+			sourceTree = "<group>";
+		};
+		323470C81CAD8B5F00974D2F /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				323470B31CAD582F00974D2F /* CardCell.swift */,
+				323470B41CAD582F00974D2F /* CardCell.xib */,
+			);
+			name = Card;
+			sourceTree = "<group>";
+		};
+		323470C91CAD8B6900974D2F /* Hand */ = {
+			isa = PBXGroup;
+			children = (
+				323470A91CAD487300974D2F /* HandVC.swift */,
+			);
+			name = Hand;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		323470771CAD480500974D2F /* BlendingCultures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323470A01CAD480500974D2F /* Build configuration list for PBXNativeTarget "BlendingCultures" */;
+			buildPhases = (
+				323470741CAD480500974D2F /* Sources */,
+				323470751CAD480500974D2F /* Frameworks */,
+				323470761CAD480500974D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlendingCultures;
+			productName = BlendingCultures;
+			productReference = 323470781CAD480500974D2F /* BlendingCultures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3234708B1CAD480500974D2F /* BlendingCulturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323470A31CAD480500974D2F /* Build configuration list for PBXNativeTarget "BlendingCulturesTests" */;
+			buildPhases = (
+				323470881CAD480500974D2F /* Sources */,
+				323470891CAD480500974D2F /* Frameworks */,
+				3234708A1CAD480500974D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3234708E1CAD480500974D2F /* PBXTargetDependency */,
+			);
+			name = BlendingCulturesTests;
+			productName = BlendingCulturesTests;
+			productReference = 3234708C1CAD480500974D2F /* BlendingCulturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		323470961CAD480500974D2F /* BlendingCulturesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323470A61CAD480500974D2F /* Build configuration list for PBXNativeTarget "BlendingCulturesUITests" */;
+			buildPhases = (
+				323470931CAD480500974D2F /* Sources */,
+				323470941CAD480500974D2F /* Frameworks */,
+				323470951CAD480500974D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				323470991CAD480500974D2F /* PBXTargetDependency */,
+			);
+			name = BlendingCulturesUITests;
+			productName = BlendingCulturesUITests;
+			productReference = 323470971CAD480500974D2F /* BlendingCulturesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		323470701CAD480500974D2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "matsushita keita";
+				TargetAttributes = {
+					323470771CAD480500974D2F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3234708B1CAD480500974D2F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 323470771CAD480500974D2F;
+					};
+					323470961CAD480500974D2F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 323470771CAD480500974D2F;
+					};
+				};
+			};
+			buildConfigurationList = 323470731CAD480500974D2F /* Build configuration list for PBXProject "BlendingCultures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3234706F1CAD480500974D2F;
+			productRefGroup = 323470791CAD480500974D2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				323470771CAD480500974D2F /* BlendingCultures */,
+				3234708B1CAD480500974D2F /* BlendingCulturesTests */,
+				323470961CAD480500974D2F /* BlendingCulturesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323470761CAD480500974D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323470861CAD480500974D2F /* LaunchScreen.storyboard in Resources */,
+				323470831CAD480500974D2F /* Assets.xcassets in Resources */,
+				323470811CAD480500974D2F /* Main.storyboard in Resources */,
+				323470B61CAD582F00974D2F /* CardCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3234708A1CAD480500974D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323470951CAD480500974D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323470741CAD480500974D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3234707C1CAD480500974D2F /* AppDelegate.swift in Sources */,
+				323470AF1CAD4B2500974D2F /* Deck.swift in Sources */,
+				323470BB1CAD5B2600974D2F /* Suit.swift in Sources */,
+				323470BD1CAD615D00974D2F /* DataSource.swift in Sources */,
+				323470B11CAD4BAC00974D2F /* Card.swift in Sources */,
+				323470AA1CAD487300974D2F /* HandVC.swift in Sources */,
+				323470BF1CAD64D800974D2F /* SourceType.swift in Sources */,
+				323470AD1CAD4A2F00974D2F /* Hand.swift in Sources */,
+				323470B91CAD5AB500974D2F /* Rank.swift in Sources */,
+				323470C31CAD6CA400974D2F /* HandDataSource.swift in Sources */,
+				323470C11CAD67E700974D2F /* DataType.swift in Sources */,
+				323470B51CAD582F00974D2F /* CardCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323470881CAD480500974D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323470911CAD480500974D2F /* BlendingCulturesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323470931CAD480500974D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3234709C1CAD480500974D2F /* BlendingCulturesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3234708E1CAD480500974D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 323470771CAD480500974D2F /* BlendingCultures */;
+			targetProxy = 3234708D1CAD480500974D2F /* PBXContainerItemProxy */;
+		};
+		323470991CAD480500974D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 323470771CAD480500974D2F /* BlendingCultures */;
+			targetProxy = 323470981CAD480500974D2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3234707F1CAD480500974D2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323470801CAD480500974D2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		323470841CAD480500974D2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323470851CAD480500974D2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3234709E1CAD480500974D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3234709F1CAD480500974D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		323470A11CAD480500974D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlendingCultures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinoponchan.BlendingCultures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		323470A21CAD480500974D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlendingCultures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinoponchan.BlendingCultures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		323470A41CAD480500974D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlendingCulturesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinoponchan.BlendingCulturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlendingCultures.app/BlendingCultures";
+			};
+			name = Debug;
+		};
+		323470A51CAD480500974D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlendingCulturesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinoponchan.BlendingCulturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlendingCultures.app/BlendingCultures";
+			};
+			name = Release;
+		};
+		323470A71CAD480500974D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlendingCulturesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinoponchan.BlendingCulturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlendingCultures;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		323470A81CAD480500974D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlendingCulturesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinoponchan.BlendingCulturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlendingCultures;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323470731CAD480500974D2F /* Build configuration list for PBXProject "BlendingCultures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3234709E1CAD480500974D2F /* Debug */,
+				3234709F1CAD480500974D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323470A01CAD480500974D2F /* Build configuration list for PBXNativeTarget "BlendingCultures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323470A11CAD480500974D2F /* Debug */,
+				323470A21CAD480500974D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		323470A31CAD480500974D2F /* Build configuration list for PBXNativeTarget "BlendingCulturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323470A41CAD480500974D2F /* Debug */,
+				323470A51CAD480500974D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		323470A61CAD480500974D2F /* Build configuration list for PBXNativeTarget "BlendingCulturesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323470A71CAD480500974D2F /* Debug */,
+				323470A81CAD480500974D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 323470701CAD480500974D2F /* Project object */;
+}
